@@ -1,1 +1,1 @@
-# easy_projects
+# Python Learning Examples
