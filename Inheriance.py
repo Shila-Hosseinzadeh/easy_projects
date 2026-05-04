@@ -92,7 +92,7 @@ print("_________________________________________________________________________
 
 # multilevel
 
-class GrandFather:
+class GrandFather():
     # attributes
     def __init__(self):
         self.family = "Gedrami"
@@ -107,6 +107,7 @@ class Father (GrandFather):
     # attributes
 
     def __init__(self):
+        super().__init__()
         self.family = "Pedrami"
         self.hair_color = "black"
 
@@ -118,10 +119,9 @@ class Father (GrandFather):
 
 
 
-
 class Doghter(Father):
     def __init__(self):
-        super().__init__()
+        self.family = "Dedrami"
         self.name = "Shina"
         self.hair_color ="blue"
 
@@ -132,4 +132,5 @@ doghter = Doghter()
 print(f"Doghter's Family is {doghter.family}, and her haircolor is {doghter.hair_color} \
 ,doghter's name is {doghter.name}")
 
+doghter.behave()
 doghter.behave2()
