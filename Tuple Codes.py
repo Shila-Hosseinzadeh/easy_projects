@@ -42,6 +42,7 @@ print(mylist)
 mynewtuple = tuple (mylist)
 print(mynewtuple)
 
+
 ## delet tuple
 mynewtuple =('a', 'b', 'c', 'd', '333')
 print(f" mynewtuple before delet : {mynewtuple}")
@@ -49,3 +50,24 @@ print(f" mynewtuple before delet : {mynewtuple}")
 del mynewtuple
 print(f" mynewtuple after delet : \n name 'mynewtuple' is not defined.")
 print(mynewtuple)
+
+
+# unpack tuples
+mytuple =('a', 'b', 'c', 'd', "e", "f")
+print(mytuple)
+(q, w, z,r,m,n) = mytuple
+print(q)
+print(n)
+
+# unpack tuples *
+mytuple =('a', 'b', 'c', 'd', "e", "f")
+print(mytuple)
+(q, *w,n) = mytuple
+print(q)
+print(w)
+print(n)
+print(type(w))
+print(type(n))
+
+
+
