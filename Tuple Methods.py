@@ -14,6 +14,7 @@ while i < 10:
 
     x = input(" please inter x : ")
     if x in mytuple:
+        if mytuple.count(x) > 0:
         print (f"{x} exists  {mytuple.count(x)} times in first position of {mytuple.index(x)}. ")
         break
     else :
