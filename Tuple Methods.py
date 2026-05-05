@@ -2,8 +2,14 @@
 # tuples are immutable .doesn't change. have 2 methods: index() , count()
 
 #index()
+
 mytuple=("a","b","c","d","f",",f","a","b" ,"c","c","d")
-print (mytuple.index("f"))
+x = input(" please inter x : ")
+if x in mytuple:
+    print(f" {x} exists in  first position of  {mytuple.index(x)}.")
+    
+else:
+    print(f" {x}  doesn't exist in this tuple.")
 
 
 #count() & Index()
