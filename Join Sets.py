@@ -11,4 +11,8 @@ print(f"set1.union(set2,set11,set12,...) ---> set3 ={set3}")
 set4 = set1 | set1 |set11 |set12
 print(f"set1 | set2 |se11 |set12 ---> set4 = {set4}")
 
-#
+# set.union(tuple) ---> set
+list1 = ["a","s","r"]
+set5=set1.union(list1)
+set5 = set1.union(list1)
+
