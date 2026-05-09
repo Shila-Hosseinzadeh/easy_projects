@@ -27,20 +27,20 @@ print(set1)
 
 
 
-# intersection() , set1 & set2
+# intersection() , set1 & set2 === shared members of set1 & set2
 set1 = {1,2,3,4,5}
 set2 = {"a","b","c",1,3}
-set3=set1.intersection(set2) == set3 = set1 & set2 == se1.intersection_update(set2)
+set3=set1.intersection(set2) === set3 = set1 & set2 === se1.intersection_update(set2)
 print(set3)
 
 
-# difference() ,  set1 - set2 ==
+# difference() ,  set1 - set2 === non-shared members of set1
 set1 = {1,2,3,4,5}
 set2 = {"a","b","c",1,3}
-set3=set1.difference(set2) == set3 = set1 - set2 ===se1.difference_update(set2)
+set3=set1.difference(set2) == set3 = set1 - set2 === se1.difference_update(set2)
 print(set3)
 
-# symmetric_difference() ,  set1 ^ set2 
+# symmetric_difference() ,  set1 ^ set2  === non-shared members of set1 & set2
 set1 = {1,2,3,4,5}
 set2 = {"a","b","c",1,3}
 set3=set1.symmetric_difference(set2) === set3 = set1 ^ set2 
