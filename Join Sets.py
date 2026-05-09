@@ -16,3 +16,5 @@ list1 = ["a","s","r"]
 set5=set1.union(list1)
 set5 = set1.union(list1)
 
+# | or is only for sets
+
