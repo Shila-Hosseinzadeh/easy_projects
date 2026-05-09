@@ -25,7 +25,23 @@ print(set1)
 
 # union() & update() removes repeated members.
 
-# intersection 
 
 
+# intersection() , set1 & set2
+set1 = {1,2,3,4,5}
+set2 = {"a","b","c",1,3}
+set3=set1.intersection(set2) == set3 = set1 & set2 == se1.intersection_update(set2)
+print(set3)
 
+
+# difference() ,  set1 - set2 ==
+set1 = {1,2,3,4,5}
+set2 = {"a","b","c",1,3}
+set3=set1.difference(set2) == set3 = set1 - set2 ===se1.difference_update(set2)
+print(set3)
+
+# symmetric_difference() ,  set1 ^ set2 
+set1 = {1,2,3,4,5}
+set2 = {"a","b","c",1,3}
+set3=set1.symmetric_difference(set2) === set3 = set1 ^ set2 
+print(set3)
