@@ -16,5 +16,16 @@ list1 = ["a","s","r"]
 set5=set1.union(list1)
 set5 = set1.union(list1)
 
-# | or is only for sets
+# | or is only for sets for join other  sets use union()
+# update() adds set2 members th set1
+set1 = {1,2,3,4,5}
+set2 = {"a","b","c",1,3}
+set1.update(set2)
+print(set1)
+
+# union() & update() removes repeated members.
+
+# intersection 
+
+
 
