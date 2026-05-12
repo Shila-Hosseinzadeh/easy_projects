@@ -22,4 +22,3 @@ print(a)
 # pop() delet member random from sets ,remove() delets decided member from sets
 # symmetric_difference() ,symmetric_difference_update() ,^ ,=^
 # update() ,union() , | , =|
-# 
